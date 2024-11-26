@@ -54,10 +54,7 @@ function mazeGame(){
 	}
 
 	this.updateCanvasSize = function () {
-		if(window.innerWidth > 1200){
-			canvas_width = 800
-			canvas_height = 800
-		} else if(window.innerWidth > 480){
+		if(window.innerWidth > 480){
 			canvas_width = 600
 			canvas_height = 600
 		} else {
